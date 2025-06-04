@@ -1,0 +1,22 @@
+{
+  "id": "com.yourname.fusion360.discordpresence",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "name": "Discord Presence",
+  "description": "Updates Discord Rich Presence when Fusion 360 is in use.",
+  "minimumFusionVersion": "2.0.0",
+  "sdkVersion": "3.1.0",
+  "entryPoint": "DiscordPresence.py",
+  "commands": [
+    {
+      "id": "startDiscordPresence",
+      "name": "Start Discord Presence",
+      "description": "Begin updating Discord status when Fusion is active.",
+      "script": "DiscordPresence.py",
+      "class": "DiscordPresenceCommand",
+      "workspace": "FusionSolidEnvironment",
+      "toolbar": "SolidScriptsAddinsPanel",
+      "controls": []
+    }
+  ]
+}

@@ -27,3 +27,11 @@ DiscordPresence/
 3. Restart Fusion 360, open **Tools → Add-Ins**, and run **Discord Presence**.
 
 Once running, a new button named **Start Discord Presence** appears in the SOLID workspace. Clicking it connects to Discord and keeps your status up to date with the current document name.
+## Troubleshooting
+If Fusion 360 reports that a script cannot be identified or that the script and manifest names do not match, verify the following:
+
+- The folder is named `DiscordPresence`.
+- The main script is `DiscordPresence.py` (no hidden `.txt` extension).
+- The manifest file is `DiscordPresence.manifest` and not `.json` or `.txt`.
+- All three names use the exact same capitalization.
+- On Windows, disable "Hide extensions for known file types" so you can confirm the file extensions.
